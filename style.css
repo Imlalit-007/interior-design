@@ -150,7 +150,7 @@
   .swiper-content p {
     line-height: 30px;
     font-size: 18px;
-   width: 80%;
+    width: 80%;
   }
 
   .swiper-content a {
@@ -665,6 +665,7 @@
     .swiper-content p {
       line-height: 30px;
       font-size: 15px;
+      width: 100%;
     }
 
     .swiper-content a {
