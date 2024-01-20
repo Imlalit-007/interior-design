@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LBuild's Interior</title>
+
+  <!--Google Fonts-->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+  <!--Font Awesome 5 CDN-->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <!--Swiper CSS CDN-->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.0.4/swiper-bundle.min.css" integrity="sha512-Chxzu1hIgdTWzvBYD6rifXuhsG91mXCtYP/hKHSHPRyYUluMJt3PVEE6k4ThFrE4l0NVnq9dfYSj7mEubGCTvw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--AOS CSS CDN-->
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!--Owl Carousel CSS CDN-->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+
+  <!--Owl Carousel JS CDN-->
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+    $(document).ready(function() {
+      $("#testimonial-slider").owlCarousel({
+        items: 2,
+        itemsDesktop: [1000, 2],
+        itemsDesktopSmall: [979, 2],
+        itemsTablet: [768, 1],
+        pagination: true,
+        autoPlay: true
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+
+  <!--Header-->
+
+  <div class="header">
+    <div class="h-img">
+      <img src="https://i.ibb.co/Y20K0g9/LBuilds-interior.png">
+    </div>
+
+    <div class="contact-no">
+      <span><i class="fa-solid fa-phone fa-lg"></i> +91 9876543210</span>
+    </div>
+
+  </div>
+
+  <!--Navigation Bar-->
+
+  <nav>
+
+    <div class="logo">
+      <a href="#">Logo</a>
+    </div>
+
+    <ul id="mySidenav" class="sidenav">
+
+      <h1>Menu</h1>
+
+      <div class="closebtn" onclick="closeNav()">
+        <img src="https://i.ibb.co/c2VgQ3W/cancel.png">
+      </div>
+
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#services">Services</a>
+      </li>
+      <li>
+        <a href="#">Blogs</a>
+      </li>
+      <li>
+        <a href="#">About</a>
+      </li>
+      <li>
+        <a href="#contacts">Contacts</a>
+      </li>
+
+      <div class="socials">
+
+        <h4>Follow Us</h4>
+
+        <a href="#">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+
+    </ul>
+
+    <span onclick="openNav()" id="open-nav">
+      <img src="https://i.ibb.co/HxzgnDY/hamburger.png">
+    </span>
+
+  </nav>
+
+  <!--Swiper-->
+
+  <div class="swiper-container mySwiper">
+
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide">
+        <img src="https://i.ibb.co/W2PSqcy/beautiful-living-room-black-white-with-luxurious-furniture-7023-2401.webp">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://i.ibb.co/3cMMLnh/beautiful-living-room-black-white-with-luxurious-furniture-7023-2406.webp">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://i.ibb.co/hXtK00N/beautiful-living-room-black-white-with-luxurious-furniture-7023-2408.webp">
+      </div>
+
+    </div>
+
+    <div class="swiper-content">
+      <h1 data-aos="zoom-in-up" data-aos-duration="2000">Modern Interior Designs</h1>
+      <br>
+      <p data-aos="zoom-in-up" data-aos-duration="2000">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem adipisci atque, neque non quaerat! Officia magnam voluptatum ipsa sapiente voluptatibus, consequuntur numquam vel nesciunt necessitatibus ratione nam incidunt totam omnis!</p>
+      <a data-aos="zoom-in-up" data-aos-duration="2000">Explore</a>
+    </div>
+
+    <div class="swiper-pagination">
+    </div>
+
+  </div>
+
+  <!--Image Gallery-->
+
+  <div class="image-gallery">
+    <p data-aos="slide-right" data-aos-duration="1000">Interior Solution</p>
+    <h1 data-aos="slide-right" data-aos-duration="1000" data-aos-delay="250">Case Studio </h1>
+
+    <div class="grid-img">
+
+      <div class="studio-img" data-aos="zoom-in" data-aos-duration="1000">
+        <img src="https://i.ibb.co/F74wMTD/interior-modern-living-room-with-sofa-plant-lamp-38322-870.webp">
+      </div>
+
+      <div class="studio-img" data-aos="zoom-in" data-aos-duration="1000">
+        <img src="https://i.ibb.co/k9rPKMM/room-with-window-plant-table-1340-25510.webp">
+      </div>
+
+      <div class="studio-img studio-img3" data-aos="zoom-in" data-aos-duration="1000">
+        <img src="https://i.ibb.co/WDfV3Gb/conceptual-interior-room-3d-illustration-652609-684.webp">
+      </div>
+
+      <div class="studio-img" data-aos="zoom-in" data-aos-duration="1000">
+        <img src="https://i.ibb.co/wKrpYsp/black-sideboard-living-room-with-copy-space-43614-868.webp">
+      </div>
+
+      <div class="studio-img" data-aos="zoom-in" data-aos-duration="1000">
+        <img src="https://i.ibb.co/DKfz3RP/free-photo-black-grunge-abstract-background-pattern-wallpaper-1340-34073.webp" />
+      </div>
+
+    </div>
+
+  </div>
+
+  <!--Services-->
+
+  <div class="s-text" id="services">
+    <p data-aos="slide-right" data-aos-duration="1000">Interior Services</p>
+    <h1 data-aos="slide-right" data-aos-duration="1000" data-aos-delay="250">Our Services</h1>
+  </div>
+
+  <div class="services">
+
+    <div class="card kitchen">
+      <img src="https://i.ibb.co/XY3ZmCD/chef.png" data-aos="fade-up" data-aos-duration="800">
+      <h3 data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">kitchen solutions</h3>
+      <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="250">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, aliquid hic, sed.</p>
+      <br><br>
+      <p data-aos="fade-up" data-aos-duration="800">
+        <a href="#">read more</a>
+      </p>
+    </div>
+
+    <div class="card bathroom">
+      <img src="https://i.ibb.co/SvczL79/bathtub.png" data-aos="fade-up" data-aos-duration="800">
+      <h3 data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">bathroom solutions</h3>
+      <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="250">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, aliquid hic, sed.</p>
+      <br><br>
+      <p data-aos="fade-up" data-aos-duration="800">
+        <a href="#">read more</a>
+      </p>
+    </div>
+
+    <div class="card bedroom">
+      <img src="https://i.ibb.co/tKPfLYd/bed.png" data-aos="fade-up" data-aos-duration="800">
+      <h3 data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">bedroom solutions</h3>
+      <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="250">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, aliquid hic, sed.</p>
+      <br><br>
+      <p data-aos="fade-up" data-aos-duration="800">
+        <a href="#">read more</a>
+      </p>
+    </div>
+
+  </div>
+
+  <!--Other Interior-->
+
+  <div class="other-interior">
+
+    <div class="o-text" data-aos="flip-up" data-aos-duration="800">
+      <h3>Wall treatment solutions</h3>
+      <h1>Other Interior Solutions</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate voluptas fugiat nobis numquam facilis natus, ad.</p>
+      <a href="#">read more</a>
+    </div>
+
+    <div class="o-img" data-aos="flip-up" data-aos-duration="800">
+      <img src="https://i.ibb.co/jbzdpXk/istockphoto-899482944-612x612.jpg">
+    </div>
+
+    <div class="o-img" data-aos="flip-up" data-aos-duration="800">
+      <img src="https://i.ibb.co/sRWpvxM/small-sectional-sofa.jpg">
+    </div>
+
+  </div>
+
+  <!--Our Clients-->
+
+  <div class="c-heading">
+    <p data-aos="slide-right" data-aos-duration="1000">Interior Clients</p>
+    <h1 data-aos="slide-right" data-aos-duration="1000" data-aos-delay="250">Our Clients</h1>
+  </div>
+
+  <div class="clients">
+
+    <div class="clients-img" data-aos="zoom-in-left" data-aos-duration="800">
+      <img src="https://i.ibb.co/Qb1CMqw/aa0ce18d38bf314e49502c3df38d27b7-removebg-preview.png">
+    </div>
+
+    <div class="clients-img" data-aos="zoom-in-up" data-aos-duration="800">
+      <img src="https://i.ibb.co/tcLPKm4/103428d9ec1188ccccd7a0215507b1fd-removebg-preview.png">
+    </div>
+
+    <div class="clients-img" data-aos="zoom-in-down" data-aos-duration="800">
+      <img src="https://i.ibb.co/s242V8p/eed803cf89b7b71faa46603d007bf3fb-removebg-preview.png">
+    </div>
+
+    <div class="clients-img" data-aos="zoom-in-right" data-aos-duration="800">
+      <img src="https://i.ibb.co/0BgNhpR/1cc4943cf664dd4f24a6389877d4a6b5-removebg-preview.png">
+    </div>
+
+    <div class="clients-img" data-aos="zoom-in-left" data-aos-duration="800">
+      <img src="https://i.ibb.co/qDGYxBR/474437610d4cb2c4782aef6324b830cd-removebg-preview.png">
+    </div>
+
+    <div class="clients-img" data-aos="zoom-in-up" data-aos-duration="800">
+      <img src="https://i.ibb.co/CMZwYSZ/33a7f8ff3fe626c7db2c2f1fb6dc7ff0-removebg-preview.png">
+    </div>
+
+    <div class="clients-img" data-aos="zoom-in-down" data-aos-duration="800">
+      <img src="https://i.ibb.co/Jz1D2Q4/0db6dad26973e334e867d097b52519ea-removebg-preview.png">
+    </div>
+
+    <div class="clients-img" data-aos="zoom-in-right" data-aos-duration="800">
+      <img src="https://i.ibb.co/Y7bbRN0/e48fc18a6b876c0a7510b623fb3c17ff-removebg-preview.png">
+    </div>
+
+  </div>
+
+  <!--Testimonials-->
+
+  <div class="t-heading">
+    <h1>What's Our Clients Say</h1>
+  </div>
+
+  <div id="testimonial-slider" class="owl-carousel">
+
+    <div class="testimonial">
+      <div class="pic">
+        <img src="https://i.ibb.co/7g8ZTH5/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair.jpg">
+      </div>
+
+      <h2 class="title">Kristina</h2>
+
+      <h3>&#11088;&#11088;&#11088;&#11088;&#11088;</h3>
+
+      <p class="description">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deleniti dolor ipsum molestias mollitia ut. Aliquam aperiam corporis cumque debitis delectus dignissimos. Lorem ipsum dolor sit amet, consectetur.
+      </p>
+    </div>
+
+    <div class="testimonial">
+      <div class="pic">
+        <img src="https://i.ibb.co/ZNL0TxR/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction.jpg">
+      </div>
+
+      <h2 class="title">Charlotte</h2>
+
+      <h3>&#11088;&#11088;&#11088;&#11088;&#11088;</h3>
+
+      <p class="description">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deleniti dolor ipsum molestias mollitia ut. Aliquam aperiam corporis cumque debitis delectus dignissimos. Lorem ipsum dolor sit amet, consectetur.
+      </p>
+    </div>
+
+    <div class="testimonial">
+      <div class="pic">
+        <img src="https://i.ibb.co/7g8ZTH5/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair.jpg">
+      </div>
+
+      <h2 class="title">Kristina</h2>
+
+      <h3>&#11088;&#11088;&#11088;&#11088;&#11088;</h3>
+
+      <p class="description">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deleniti dolor ipsum molestias mollitia ut. Aliquam aperiam corporis cumque debitis delectus dignissimos. Lorem ipsum dolor sit amet, consectetur.
+      </p>
+    </div>
+
+    <div class="testimonial">
+      <div class="pic">
+        <img src="https://i.ibb.co/ZNL0TxR/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction.jpg">
+      </div>
+
+      <h2 class="title">Charlotte</h2>
+
+      <h3>&#11088;&#11088;&#11088;&#11088;&#11088;</h3>
+
+      <p class="description">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deleniti dolor ipsum molestias mollitia ut. Aliquam aperiam corporis cumque debitis delectus dignissimos. Lorem ipsum dolor sit amet, consectetur.
+      </p>
+    </div>
+
+  </div>
+
+  <!--Contact Us-->
+
+  <div class="contact" id="contacts">
+
+    <div class="contact-info">
+      <h1>contact info</h1>
+      <span><i class="fa-solid fa-phone fa-lg"></i> +91 9876543210</span>
+      <span><i class="fa-solid fa-envelope"></i> lbulds123@gmail.con</span>
+      <span><i class="fa-solid fa-location-dot"></i> 203, Envato Labs, Behind Alis Steet, Australia</span>
+
+      <div class="social-icon">
+        <a href="#">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+
+    </div>
+
+    <div class="contact-form">
+      <form action="#">
+        <input type="text" placeholder="Enter your Name" id="name">
+        <span id="error errorOne"></span>
+        <input type="email" placeholder="Enter a valid email address" id="email">
+        <span id="error errorTwo"></span>
+        <textarea placeholder="Enter your message" id="message"></textarea>
+        <span id="error errorThree"></span>
+        <input type="submit" value="Submit" onclick="valid()">
+      </form>
+    </div>
+
+  </div>
+
+  <hr class="line">
+
+  <!--Footer-->
+
+  <div class="footer">
+    <h3>LBUILD.com</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, magnam itaque nesciunt aut. Sint voluptatum iste deserunt magnam harum laudantium voluptates natus non. Obcaecati veritatis est quisquam, minima fugiat tempora.</p>
+  </div>
+
+  <div class="copyright">
+    <span>&#169;2023 All rights reserved</span>
+  </div>
+
+
+  <!--Swiper JS CDN-->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.0.4/swiper-bundle.min.js" integrity="sha512-0N/5ZOjfsh3niel+5dRD40HQkFOWaxoVzqMVAHnmAO2DC3nY/TFB7OYTaPRAFJ571IRS/XRsXGb2XyiFLFeu1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+  <!--AOS JS CDN-->
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!--Initialize AOS-->
+
+  <script>
+    AOS.init();
+  </script>
+
+  <!--JavaScript-->
+  <script src="script.js"></script>
+
+</body>
+</html>
