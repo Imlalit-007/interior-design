@@ -744,6 +744,7 @@
 
     .other-interior {
       grid-template-columns: 1fr;
+      overflow: hidden;
     }
 
     .o-text {
