@@ -1,7 +1,7 @@
   //Sidebar
 
   function openNav() {
-    document.getElementById("mySidenav").style.width = "300px";
+    document.getElementById("mySidenav").style.width = "70%";
     document.querySelector('body').style.overflow = "hidden";
   }
 
